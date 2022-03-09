@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <script src="/js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Andromeda | Home</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+  </head>
+<body>
+  <div id="particles-js"></div>
+  <p class="name">Andromeda</p>
+  <div class="buttons">
+    <a class="buttons games" href="/games">Games</a>
+    <a class="buttons suggestions" href="/suggestions">Suggestions</a>
+    <a class="buttons discord" href="/disc">Discord</a>
+  </div>
+  <center>
+  <input autocomplete="off" class="search" id="search" placeholder="Enter URL Here"></input>
+  <div class="proxies">
+    <div class="proxy" id="ultraviolet" onclick="">Ultraviolet</div>
+    <div class="proxy" id="rhodium" onclick="">Rhodium</div>
+    <div class="proxy" id="palladium" onclick="setproxy('Palladium')">Palladium</div>
+    <div class="proxy" id="corrosion" onclick="setproxy('Corrosion')">Corrosion</div>
+  </div>
+  </center>
+
+<iframe width="100%" height="90%" src="" id="site"></iframe>
+<div id="closesite" onclick="closesite()"><i id="closeicon" class="fas fa-times"></i></div>
+<div id="reloadsite" onclick="reloadsite()"><i id="reloadicon" class="fas fa-redo-alt"></i></div>
+
+  <script src="/js/particles.js"></script>
+  <script src="/js/app.js"></script>
+</body>
+</html>

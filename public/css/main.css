@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+body {
+  background: linear-gradient(90deg, rgb(8, 8, 116), #8f2ec7);
+  font-family: Nunito;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+::-webkit-scrollbar {
+display: none;
+}
+
+::placeholder {
+color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.name {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 270px;
+  margin-bottom: 10px;
+}
+
+.buttons {
+  transition: all 0.5s ease;
+  font-size: 15px;
+  text-align: center;
+  margin: 10px;
+  margin-top: 15px;
+}
+
+.games:hover {
+  font-size: 20px;
+}
+
+.suggestions:hover {
+  font-size: 20px;
+}
+
+.discord:hover {
+  font-size: 20px;
+}
+
+.search {
+  text-align: center;
+  font-size: 18px;
+  border-radius: 35px;
+  outline: none;
+  border: 2px solid white;
+  width: 500px;
+  height: 25px;
+  background: transparent;
+  padding: 5px;
+  color: white;
+}
+
+#particles-js {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  background: transparent;
+}
+
+.proxies {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.proxy {
+  border-radius: 35px;
+  border: 1.5px solid white;
+  font-size: 12px;
+  padding: 5px;
+  padding-top: 10px;
+  padding-bottom: 0;
+  width: 70px;
+  height: 25px;
+  background-color: rgb(16,16,16,0);
+  color: white;
+  margin: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.proxysel {
+  transition: 0.5s all ease;
+  transform: scale(1.15);
+  color: black;
+  background-color: white;
+}
+
+#site {
+  position: fixed;
+  top: 60px; 
+  left: 0; 
+  right: 0; 
+  bottom: 0;
+  border: none;
+  z-index: 10;
+  display: none;
+  background: white;
+}
+
+#closesite {
+  display: none;
+  position: fixed;
+  top: 70px; 
+  right: 10px; 
+  background-color: rebeccapurple;
+  border-radius: 2.5px;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  z-index: 11;
+  cursor: pointer;
+}
+  
+  #reloadsite {
+  display: none;
+  position: absolute;
+  top: 70px; 
+  right: 60px; 
+  background-color: rebeccapurple;
+  border-radius: 2.5px;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  z-index: 11;
+  cursor: pointer;
+}
+
+#closeicon {
+  color: white;
+  font-size: 30px;
+  line-height: 40px;
+}
+  
+  #reloadicon {
+  color: white;
+  font-size: 25px;
+  line-height: 40px;
+}
